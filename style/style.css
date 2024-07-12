@@ -5,6 +5,37 @@
     font-style: normal;
   }
 
+/* shared styes */
+.main-class{
+    margin: 74px 148px 0px 152px;
+}
+.normal-text-center{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 24px;
+}
+.normal-text{
+    font-size: 16px;
+    margin-top: 24px;
+    text-align:left;
+}
+.section-title{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 0px 47px;
+}
+.reason-button{
+    width: 171px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.reason-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+}
   /* Nav Styles */
 .navigation{
     display: flex;
@@ -24,10 +55,60 @@
 }
 /* banner styles */
 .banner{
+    background-image: url(../assets/Hero-bg.png);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 26px 221px 44px;
 }
 .banner-image{
     width: 240.28px;
     height: 240px;
+    padding: 0px 378.86px;
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 32px;
+}
+.banner-btn{
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    background-color: #0D1321;
+    margin-top: 32px;
+    margin-bottom: 45px;
+}
+
+/* first section styles */
+.web-development{
+    background-color: rgba(13, 19, 33, 0.02);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 97px 80px;
+}
+.reason-1, .reason-3{
+    display: flex;
+    background-color: white;
+    padding: 48px;
+    /* justify-content: center; */
+    gap: 98.83px;
+    border-radius: 16px;
+}
+.reason-2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 48px;
+    gap: 32px;
+}
+.reason-1-content{
+    margin-right: 373px;
+}
+.reason-2-content{
+    margin-right: 101px;
 }
