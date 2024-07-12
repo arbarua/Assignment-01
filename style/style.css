@@ -1,0 +1,33 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  /* Nav Styles */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.my-name{
+    font-size: 28px;
+    font-weight: bolder;
+    margin: 50px 150px;
+}
+.nav-btn-download-resume{
+   width: 228px;
+   height: 58px;
+   margin: 38px 166px;
+   font-size: 20px;
+   font-weight: 400;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    flex-direction: column;
+}
+.banner-image{
+    width: 240.28px;
+    height: 240px;
+}
